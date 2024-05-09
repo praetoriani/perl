@@ -72,3 +72,4 @@ my $url = 'http://127.0.0.1:8080';
 Win32::Process::Create(my $process, $ENV{SYSTEMROOT} . '\\system32\\cmd.exe', "cmd /c start $url", 0, NORMAL_PRIORITY_CLASS, ".");
 
 print "Server is up and running: $url\n";
+print "Press <CTRL> + C to stop the server and exit the app.\n"
